@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.support.ui import Select
 import time
 
 class Assessment():
@@ -24,7 +25,9 @@ class Assessment():
         driver.find_element_by_id("orgName").send_keys("vybhav")
         driver.find_element_by_id("singUpEmail").send_keys("sreshtavybhavgmail.com")
         driver.find_element_by_css_selector(".ui-checkbox>.black-color.ng-binding").click()
-        driver.find_element_by_css_selector(".btn.btn-block.btn-custom.ng-binding").click()
+        button=driver.find_element_by_xpath("/html//section[@id='content']//section[@class='panel panel-default sign-up-box']/div[@class='form-container']/form[@name='signUpForm']//button[@type='submit']")
+        driver.execute_script("arguments[0].click();", button)
+        time.sleep(5)
         driver.close()
 
 selenium_object=Assessment()
