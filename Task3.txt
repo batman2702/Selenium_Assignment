@@ -1,0 +1,15 @@
+1)Login button background color could be better a color
+2)Whether power supply address is same as billing address * could be aligned properly
+3)NO radio button font could be better
+4)I, the above referred applicant, agree and accept the "Terms and Conditions of Agreement" mentioned herein above this should be at the bottom and keep check box
+5)Select Connection Type* we can keep it as dropdown
+6)Backgroud could be some better color
+7)Application details can be hidden when we press the button form details should get displayed
+8)We keep all of them centre aligned
+9)All the upload buttons could be smaller
+10)generation otp validation could be better aligned 
+11)We should avoid margins all over the sites
+12) Date and Day could be aligned better
+13)Home and login button could be placed in better position
+14)Application to be submitted we can keep it scrolling
+15)View terms and codnitions should be at last 
